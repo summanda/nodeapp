@@ -1,0 +1,16 @@
+{
+    "Demo1Routes": {
+        "baseResource": "",
+        "routes": {
+            "demo1_dummy1": "/demo1_dummy1",
+            "demo1_dummy2": "/demo1_dummy2"
+        }
+    },
+    "Demo2Routes": {
+        "baseResource": "",
+        "routes": {
+            "demo2_dummy1": "/demo2_dummy1",
+            "demo2_dummy2": "/demo2_dummy2"
+        }
+    }
+}

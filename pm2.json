@@ -1,0 +1,26 @@
+{
+    "apps": [
+        {
+            "name": "NodeApp_PROD",
+            "script": "node ./build/index.js",
+            "max_memory_restart": "450M",
+            "log_date_format": "YYYY-MM-DD HH:mm Z",
+            "error_file": "./logs/production/NodeApp_PROD/pm2/error/error.log",
+            "out_file": "./logs/production/NodeApp_PROD/pm2/out/out.log",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        },
+        {
+            "name": "NodeApp__DEV",
+            "script": "node ./build/index.js",
+            "max_memory_restart": "450M",
+            "log_date_format": "YYYY-MM-DD HH:mm Z",
+            "error_file": "../logs/production/NodeApp_DEV/pm2/error/error.log",
+            "out_file": "./logs/production/NodeApp_DEV/pm2/out/out.log",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
